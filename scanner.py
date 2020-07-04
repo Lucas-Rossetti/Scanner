@@ -1,4 +1,4 @@
-# Made by Gh0ST
+# Made by Lucas Rossetti
 # The use of this script is free
 # Some information obtained by this script may be not reliable
 # Enjoy
