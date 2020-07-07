@@ -9,10 +9,10 @@ from datetime import datetime
 from colorama import Fore, Style, init
 
 # Parameters array
-options = ['-l4', '-p4', '-p', '-a', '-h', '-v', '-o', 'install', '--help']
+options = ['-l4', '-p4', '-p', '-a', '-d', '-h', '-v', '-o', 'install', '--help']
 
 # Parameters's descriptions array
-des = ['Lists all up host addresses on the network !!! Feature not avaible yet !!!', 'Shows the open ports(TCP) on a host', 'See if a specified port is open', 'Do a scan on all ports', 'Put the host address just after this option', 'Uses the verbose mode', 'Write the output to a file !!! Feature not avaible yet !!!', 'Put this option if it is the first time your are using the scanner in your computer', 'Shows this helping interface']
+des = ['Lists all up host addresses on the network !!! Feature not avaible yet !!!', 'Shows the open ports(TCP) on a host', 'See if a specified port is open', 'Do a scan on all ports', 'Delay after p ports scanned t time. Example: -d 10 0.1 # Each 10 ports scanned, the program will delay 0.1 second', 'Put the host address just after this option', 'Uses the verbose mode', 'Write the output to a file !!! Feature not avaible yet !!!', 'Put this option if it is the first time your are using the scanner in your computer', 'Shows this helping interface']
 
 # Call init function for Windows OS
 init()
