@@ -19,7 +19,13 @@ $ python3 scanner.py install
 ```
 Esse código instalará as dependências necessárias
 
+## Exemplos
 ```
-$ python3 scanner.py -a -p4 -i 127.0.0.1
+$ python3 scanner.py -a -p4 -h 127.0.0.1
 ```
 Esse código realizará um scan em todas as portas do IP(v4) 127.0.0.1
+
+```
+$ python3 scanner.py -p4 -d 50 1 -h 127.0.0.1
+```
+Esse código realizará um scan nas primeiras 1000 portas do IP 127.0.0.1, pausando por 1 segundo a cada 50 portas
